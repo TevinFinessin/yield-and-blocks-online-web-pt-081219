@@ -1,6 +1,6 @@
 def hello_t(names)
 names.each do |name|
-  if name.start.start_with?
+  if name.start.start_with?("T")
 end
 end
 
