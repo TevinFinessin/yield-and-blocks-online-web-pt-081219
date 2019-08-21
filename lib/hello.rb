@@ -1,4 +1,5 @@
 def hello_t(names)
+  if block_given?
 i = 0
 
 while i < names.length
