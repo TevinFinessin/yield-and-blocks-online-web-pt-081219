@@ -3,5 +3,4 @@ names.each do |name|
   if name.start_with?("T")
 end
 end
-end
 # call your method here!
