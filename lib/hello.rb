@@ -1,8 +1,9 @@
 def hello_t(names)
-names.each do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-end
+i = 0
+
+while i < names.length
+yield(names[i])
+i = i + 1
 end
 end
 # call your method here!
